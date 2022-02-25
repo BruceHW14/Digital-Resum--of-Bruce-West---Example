@@ -1,11 +1,16 @@
-img {
-  border-radius : 50%
+#profilePhoto{
+  width: 15%;
+  height: 15%;
+  border-radius : 50%;
+  border: 3px  solid lightseagreen 
 }
 
 body{
   font-family: serif;
   font-size:120%;
   background-color: #FCF7F8;
+  display: flex;
+  flex-direction: column;
 }
 
 .article{
@@ -15,26 +20,41 @@ body{
 .mainSection{
   background-color: darkslategray;
   color: whitesmoke;
+  border: 20px solid black;
+  margin: 1%;
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
 }
 
 #sidebar{
   width: 15%;
-  background-color: mediumseagreen
+  background-color: mediumseagreen;
 }
 
 .exLink{
-  background-color: lime;
+  background-color: limegreen;
 }
 .navMenu{
   list-style-type: none;
+  padding: 0%;
 }
 header {
   text-align: center;
   background-color: black;
-  color: whitesmoke
+  color: whitesmoke;
+  border: 20px solid lightseagreen;
+  justify-content: center;
 }
 
 footer {
-  background-color: grey;
+  background-color: gray;
   text-align: center;
+  border: 20px solid black;
+  padding: 1rem;
+  color: whitesmoke;
+}
+
+.icons{
+  border-radius: 50%;
 }
