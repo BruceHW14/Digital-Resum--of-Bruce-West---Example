@@ -2,10 +2,10 @@
   width: 15%;
   height: 15%;
   border-radius : 50%;
-  border: 3px  solid lightseagreen 
+  border: 3px  solid black;
 }
 
-body{
+#Context{
   font-family: serif;
   font-size:120%;
   background-color: #FCF7F8;
@@ -27,9 +27,14 @@ body{
   overflow: unset;
 }
 
+#mainRead{
+  margin-left: 40px;
+}
+
 #sidebar{
   width: 15%;
   background-color: mediumseagreen;
+  text-align: center;
 }
 
 .exLink{
@@ -39,22 +44,26 @@ body{
   list-style-type: none;
   padding: 0%;
 }
-header {
+#heading {
   text-align: center;
-  background-color: black;
+  background-color: darkslategray;
   color: whitesmoke;
-  border: 20px solid lightseagreen;
+  border: 20px solid black;
   justify-content: center;
 }
 
-footer {
-  background-color: gray;
+#MyContactInfo {
+  background-color: darkslategray;
   text-align: center;
   border: 20px solid black;
   padding: 1rem;
   color: whitesmoke;
 }
 
-.icons{
+.facebook_icon{
   border-radius: 50%;
+}
+
+.gmail_icon{
+  border-radius: 20%;
 }
