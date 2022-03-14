@@ -62,8 +62,10 @@
 
 .facebook_icon{
   border-radius: 50%;
+  opacity: 0.7;
 }
 
 .gmail_icon{
   border-radius: 20%;
+  opacity: 0.7;
 }
